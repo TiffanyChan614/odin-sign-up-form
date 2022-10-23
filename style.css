@@ -151,6 +151,10 @@ input:invalid {
     border: 1.5px solid #ff5353;
 }
 
+::placeholder {
+    color: #a4a4a4;
+}
+
 button[type="submit"] {
     padding: 10px 35px;
     border: none;
@@ -162,6 +166,7 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: #475537;
+    cursor: pointer;
 }
 
 button[type="submit"]:active {
