@@ -23,8 +23,10 @@ body {
 .left-col {
     display: flex;
     flex-direction: column;
-    flex: 0.3 0.3 auto;
+    flex: 1 0.5 auto;
     width: 400px;
+    min-width: 250px;
+    max-width: 700px;
     height: 100vh;
     background-image: url("images/halie-west-25xggax4bSA-unsplash.jpg");
     background-repeat: no-repeat;
@@ -80,7 +82,7 @@ body {
 }
 
 .right-col {
-    flex: 0.6 0.6 auto;
+    flex: 2 1 auto;
     background-color: #f5f6f8;
     width: 100%;
     display: flex;
@@ -110,7 +112,7 @@ body {
 
 .form-title {
     color: #444444;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 15px;
 }
 
@@ -136,6 +138,7 @@ label {
     color: #757575;
     font-weight: bold;
     letter-spacing: 0.1em;
+    margin-bottom: 1px;
 }
 
 input[type="text"], input[type="email"],
