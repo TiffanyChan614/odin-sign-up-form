@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "norse-bold";
+    src: url("fonts/norse-bold-webfont.woff2") format("woff2"),
+        url("fonts/norse-bold-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -39,14 +47,17 @@ body {
 }
 
 #odin-text {
+    font-family: "norse-bold", sans-seriff;
     color: #FFFFFF;
-    font-size: 50px;
+    font-size: 65px;
 }
 
 .img-credit {
     color: #FFFFFF;
     background-color: transparent;
     margin-top: auto;
+    margin-bottom: 10px;
+    font-weight: 100;
 }
 
 #credit-text {
