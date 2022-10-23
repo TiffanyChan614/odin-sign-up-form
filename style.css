@@ -150,6 +150,14 @@ button[type="submit"] {
     box-shadow: 3px 3px 3px #dcdcdc;
 }
 
+button[type="submit"]:hover {
+    background-color: #475537;
+}
+
+button[type="submit"]:active {
+    background-color: #2c3522;
+}
+
 .sign-in {
     font-size: 14px;
 }
