@@ -56,6 +56,16 @@ body {
 
 .img-credit a {
     text-decoration: underline;
+    color: #FFFFFF;
+}
+
+.img-credit a:visited {
+    color: #c9c9c9;
+}
+
+.img-credit a:hover, .img-credit a:active {
+    color: #FFFFFF;
+    font-weight: bold;
 }
 
 .right-col {
@@ -165,4 +175,19 @@ button[type="submit"]:active {
 .sign-in a {
     color: #596D48;
     font-weight: bold;
+    text-decoration: none;
+}
+
+.sign-in a:visited {
+    color: #7a4461;
+}
+
+.sign-in a:hover {
+    color: #475537;
+    font-weight: 800;
+}
+
+.sign-in a:active {
+    color: #2c3522;
+    font-weight: 800;
 }
