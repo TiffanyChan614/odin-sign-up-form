@@ -30,42 +30,45 @@
             </p>
         </div>
         <div class="sign-up-form">
-            <h2 class="form-title">Let's do this!</h2>
             <form action="" method="post">
-                <div class="form-row">
-                    <div class="form-field">
-                        <label for="first-name">FIRST NAME</label>
-                        <input type="text" id="first-name" name="first-name" placeholder="Enter your first name">
+                <div class="white-row">
+                    <h2 class="form-title">Let's do this!</h2>
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required>
+                        </div>
                     </div>
-                    <div class="form-field">
-                        <label for="last-name">LAST NAME</label>
-                        <input type="text" id="last-name" name="last-name" placeholder="Enter your last name">
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="mail">EMAIL</label>
+                            <input type="email" id="mail" name="mail" placeholder="example@gmail.com" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="tel" id="phone" name="phone" placeholder="###-###-####">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="pwd">PASSWORD</label>
+                            <input type="password" id="pwd" name="pwd" placeholder="Enter your password" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="confirm-pwd">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm-pwd" name="confirm-pwd"
+                            placeholder="Enter your password again" required>
+                        </div>
                     </div>
                 </div>
-                <div class="form-row">
-                    <div class="form-field">
-                        <label for="mail">EMAIL</label>
-                        <input type="email" id="mail" name="mail" placeholder="example@gmail.com">
-                    </div>
-                    <div class="form-field">
-                        <label for="phone">PHONE NUMBER</label>
-                        <input type="tel" id="phone" name="phone" placeholder="###-###-####">
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="form-field">
-                        <label for="pwd">PASSWORD</label>
-                        <input type="password" id="pwd" name="pwd" placeholder="Enter your password">
-                    </div>
-                    <div class="form-field">
-                        <label for="confirm-pwd">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirm-pwd" name="confirm-pwd" placeholder="Enter your password again">
-                    </div>
+                <div class="submit">
+                    <button type="submit">Create Account</button>
                 </div>
             </form>
-        </div>
-        <div class="submit">
-            <button type="submit">Create Account</button>
         </div>
         <div class="sign-in">
             <p>Already have an account? <a href="">Log in</a></p>

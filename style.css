@@ -91,35 +91,31 @@ body {
     gap: 25px;
 }
 
-.right-col > div {
-    padding-right: 30px;
-    padding-left: 30px;
+.intro, .white-row, .submit, .sign-in {
+    padding-left: 35px;
 }
 
 .intro {
-    width: 550px;
+    width: 520px;
     font-weight: bold;
     color: #252527;
     margin-bottom: 20px;
 }
 
-.sign-up-form {
+.white-row{
     background-color: #FFFFFF;
+    width: 100%;
     box-shadow: 3px 3px 5px #d2d1d1;
     padding-top: 20px;
     padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .form-title {
     color: #444444;
     font-size: 18px;
-    margin-bottom: 15px;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
 }
 
 .form-row {
@@ -151,7 +147,7 @@ input[type="tel"], input[type="password"] {
     color: #252527;
 }
 
-input:focus, input:invalid {
+input:focus{
     box-shadow: 3px 3px 3px #dcdcdc;
 }
 
@@ -160,16 +156,17 @@ input:focus {
     border: 1.5px solid #6f8ae3;
 }
 
-input:invalid {
+/* input:invalid {
     outline: none;
     border: 1.5px solid #ff5353;
-}
+} */
 
 ::placeholder {
     color: #a4a4a4;
 }
 
 button[type="submit"] {
+    margin-top: 25px;
     padding: 10px 35px;
     border: none;
     border-radius: 5px;
