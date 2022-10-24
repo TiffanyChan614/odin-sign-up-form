@@ -161,6 +161,10 @@ input:focus {
     color: #a4a4a4;
 }
 
+.error {
+    border: 1.5px solid #ff5353 !important;
+}
+
 #pwd-error-msg {
     display: none;
     color: #ff5353;
