@@ -19,7 +19,7 @@ This is a form that checks for:
 - A valid email address(example@example.com)
 - A 10-digit phone number in the format of ###-###-####
 - Any value for password
-- A passowrd confirmation that matches the password
+- A password confirmation that matches the password
 
 ## What I Learned in This Project
 - To create a basic form in HTML
