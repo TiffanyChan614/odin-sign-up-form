@@ -7,7 +7,7 @@ You can also try the project yourself [here](https://www.theodinproject.com/less
 
 ## Project Preview
 ### Screenshot
-![Project Screenshot] (/images/projectScreenshot.png "Project Screenshot")
+![Project Screenshot](images/projectScreenshot.png "Project Screenshot")
 
 ### Preview
 You can also preview the page [here](https://tiffanychan614.github.io/odin-sign-up-form/).
