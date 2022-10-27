@@ -40,7 +40,7 @@ I have to set `outline: none;` for the target classes.
 
 I use JavaScript to add an error class to `#pwd` and `#confirm-pwd` whenever their values do not match
 and added some styling to the error class in CSS, but it did not work.
-Then I found out I have to add `!important` after each property/value pairs.
+Then I found out the styling I added to the error class is overridden by the previous styling because of CSS specificity. My initial solution is to add `!important` after each property/value pairs. But since it is considered to be a bad practice, I change the selector from `.error` to `input[type="password"].error` to increase its specificity.
 
 ### 3. To write a README file
 
