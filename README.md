@@ -47,7 +47,7 @@ Then I found out the styling I added to the error class is overridden by the pre
 Although I have completed several small projects before, I have never written any README file. I find it very difficult to decide what to include. Also, I don't know anything about a markdown file so it is quite a hard time for me to learn the syntax and format.
 
 ## Things to Improve / Add
-- More input field involving different types of input
+- More input fields involving different types of input
 - Set restrictions on the password format
 
 ## Skills
