@@ -17,8 +17,8 @@ This is a form that checks for:
 
 - Any value for first and last name
 - A valid email address(example@example.com)
-- A 10-digit phone number in the format of ###-###-####
-- Any value for password
+- A 10-digit phone number in the format of ###-###-#### / ### ### #### / ##########
+- A password that contains 8 or more characters that are of at least one number, and one uppercase and lowercase letter
 - A password confirmation that matches the password
 
 ## What I Learned in This Project
@@ -47,8 +47,8 @@ Then I found out the styling I added to the error class is overridden by the pre
 Although I have completed several small projects before, I have never written any README file. I find it very difficult to decide what to include. Also, I don't know anything about a markdown file so it is quite a hard time for me to learn the syntax and format.
 
 ## Things to Improve / Add
-- More input fields involving different types of input
-- Set restrictions on the password format
+-  More input fields involving different types of input
+-  Set restrictions on the password format (Finished on 3/11)
 
 ## Skills
 - Basic HTML
