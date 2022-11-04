@@ -5,7 +5,7 @@ function verifyPassword() {
         password.className = "error";
         confirmPassword.className = "error";
     }
-    const pwdErrorMsg = document.querySelector("#pwd-error-msg");
+    const pwdErrorMsg = document.querySelector(".pwd-error-msg");
     pwdErrorMsg.style.display = "block";
     return password.value === confirmPassword.value;
 }
