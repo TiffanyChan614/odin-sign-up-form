@@ -60,5 +60,5 @@ Although I have completed several small projects before, I have never written an
 ### Images
 Halie West (https://www.haliewestphotography.com/)
 
-### Project ideas
+### Project Ideas
 The Odin Project (https://www.theodinproject.com/)
