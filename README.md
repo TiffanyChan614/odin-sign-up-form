@@ -12,6 +12,12 @@ You can also try the project yourself [here](https://www.theodinproject.com/less
 ### Preview
 You can also preview the page [here](https://tiffanychan614.github.io/odin-sign-up-form/).
 
+## Skills
+- Basic HTML
+- HTML form
+- Basic CSS
+- CSS flexbox
+
 ## Features
 This is a form that checks for:
 
@@ -21,7 +27,7 @@ This is a form that checks for:
 - A password that contains 8 or more characters that are of at least one number, and one uppercase and lowercase letter
 - A password confirmation that matches the password
 
-## What I Learned in This Project
+## What I Learned in this Project
 - To create a basic form in HTML
 - To style a form with CSS
 - To use image as background
@@ -49,12 +55,6 @@ Although I have completed several small projects before, I have never written an
 ## Things to Improve / Add
 -  More input fields involving different types of input
 -  Set restrictions on the password format (Finished on 3/11)
-
-## Skills
-- Basic HTML
-- HTML form
-- Basic CSS
-- CSS flexbox
 
 ## Credits
 ### Images
